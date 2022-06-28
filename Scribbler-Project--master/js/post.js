@@ -37,7 +37,7 @@ document.addEventListener(
     } else if (hasClass(e.target, "like-button")) {
       // Like Button Clicked
       likeNo++;
-      e.target.innerHTML = '<i class="fa fa-thumbs-up"></i> Liked';
+      e.target.innerHTML = '<i class="fa fa-thumbs-up"></i> Liked!';
       if (likeNo == 1) {
         document.getElementById("likeText").innerHTML = "1 person likes this!";
       } else if (likeNo > 1) {
