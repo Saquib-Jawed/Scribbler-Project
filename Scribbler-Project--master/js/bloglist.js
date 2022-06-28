@@ -19,10 +19,6 @@ openDeletePostModal = (deletePostModal, clickedIcon) => {
   selectedPost = clickedIcon.closest(".post");
 };
 
-deletePost = () => {
-  selectedPost.remove();
-  closeModal(deletePostModal);
-};
 
 // Updating Session storage before redirecting to post.html page to view the clicked post
 navigateToPost = postThread => {
